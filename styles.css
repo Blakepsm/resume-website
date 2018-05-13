@@ -7,14 +7,12 @@
 }
 
 section, article, aside, footer, header, nav {
-
     /*Legacy browsers*/
     display: block;
   }
 
 body {
     background-color: #0D0D0D;
-    color: #ffffff;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 14px;
     line-height: 1.3;
@@ -33,23 +31,25 @@ section {
 header {
     display: flex;    
     background-color: #303030;
-    justify-content: space-between;
     margin: auto;
+    border-bottom: 2px solid #9CDCFE;
+    flex-direction: column;
 }
 
 nav {
     display: flex;
+    margin: auto;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    background-color: #f1f1f1;
+    background-color: #444444;
 }
 
 nav li a {
     display: flex;
-    color: #000;
+    color: #999999;
     padding: 8px 16px;
     text-decoration: none;
     justify-content: center;
@@ -71,6 +71,11 @@ section ul {
     margin: 20px 50px;
 }
 
+/*Colour Scheme*/
+p, ul {
+    color: #ffffff;
+}
+
 h1 {
     color: #D19A66;
     margin: 0 auto;
@@ -82,4 +87,9 @@ h2 {
 
 h3 {
     color: #DCDCAA;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
 }
